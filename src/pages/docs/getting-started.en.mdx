@@ -7,7 +7,7 @@ import Callout from 'nextra-theme-docs/callout'
 <Callout emoji="⚡️">Here's a quick too-long-don't-read guide on how to deploy your own onedrive-vercel-index.</Callout>
 
 1. Fork the repo [spencerwooo/onedrive-vercel-index](https://github.com/spencerwooo/onedrive-vercel-index).
-2. Change `userPrincipleName` in `site.config.js` to your Microsoft account email address.
+2. Change `userPrincipalName` in `site.config.js` to your Microsoft account email address.
 3. Change `baseDirectory` in `site.config.js` to a folder under your OneDrive root directory.
 4. Optional - Check if you need to change `api.config.js`.
 5. Import to Vercel and [add an Upstash integration](https://vercel.com/integrations/upstash), which imports `REDIS_URL` env var to Vercel.
